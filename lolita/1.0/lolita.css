@@ -1,0 +1,35 @@
+.ap_results {
+	float: left;
+	width: 100%;
+}
+.ap_results .ap-citem {
+	border-bottom: 1px solid #e3e3e3;
+	float: left;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+.ap_results .ap-citem:last-child{
+	border-bottom: 0 none;	
+}
+.ap_results .ap-citem .image {
+	box-shadow: 0 0 1px #8a8a8a;
+	float: left;
+	margin-right: 4%;
+	padding: 10px;
+	width: 30%;
+}
+.ap_results .ap-citem .image > a{
+	margin: 0 auto;
+	width: 100%;
+}
+.ap_results .ap-citem .image > a img{
+	margin: 0 auto;
+}
+.ap_results .ap-citem > a,
+.ap_results .ap-citem > span {
+	float: left;
+	text-decoration: none;
+	width: 66%;
+	box-shadow:none;
+}
