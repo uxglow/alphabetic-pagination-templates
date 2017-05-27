@@ -44,3 +44,17 @@
 .ap_results .ap-citem > span {
 	font-size: 13px;
 }
+@media only screen and (max-width: 480px) {
+	.ap_results .ap-citem{
+		width: 100%;	
+	}
+	.ap_results .ap-citem .image { 
+		width: 100%;
+		float:left;
+	}
+	.ap_results .ap-citem > a,
+	.ap_results .ap-citem > span {
+		width: 100;
+		margin-top: 10px;	
+	}
+}
